@@ -1,0 +1,218 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav{
+   height:3rem;
+   display:flex;
+   justify-content: space-between;
+   align-items: center;
+   padding:0 5rem 0 5rem;
+}
+
+.logoContainer{
+
+    color:rgb(39, 201, 161);
+}
+
+.menuContainer{
+    color:black;
+    display: flex;
+    gap:1rem;
+}
+
+.headerImg{
+    max-width: 100%;
+    height: auto;
+}
+
+.input{
+    width:25%;
+    height:2rem;
+    padding-left:1rem;
+    background-color: white;
+    position:absolute;
+    top:20rem;
+    left:30rem;
+    border:none;
+}
+
+.input::placeholder{
+    color:rgb(39, 201, 161);
+    font-weight:600;
+}
+
+.searchButton{
+    width:5%;
+    height: 2rem;
+    background-color: rgb(39, 201, 161);
+    border:none;
+    position: absolute;
+    top:20rem;
+    left:52.5rem;
+}
+
+.fa-magnifying-glass{
+    color:white;
+}
+
+.introductionContainer{
+    margin-top:3rem;
+    margin-bottom:1.5rem;
+    color:rgb(39, 201, 161);
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    padding:0 6rem 0 6rem;
+}
+
+.imagesContainer{
+    display: flex;
+    flex-wrap:wrap;
+    width: 100%;
+    padding:0 6rem;
+    position: relative;
+    gap:2rem;
+    margin-bottom:5rem;
+}
+
+.photos{
+    width:23%;
+}
+
+img{
+    width:100%;
+}
+
+.labelContainer{
+    display: flex;
+    justify-content: space-between;
+    color:gray;
+    margin-top:0.5rem;
+}
+
+.navigationContainer{
+    padding:0 6rem;
+    display: flex;
+    gap:12rem;
+    margin-bottom:3rem;
+}
+
+.navigationButton{
+    color:white;
+    background-color: rgb(39, 201, 161);
+    border:none;
+    width:10%;
+    height:2rem;
+    border-radius:0.2rem ;
+}
+
+.pageButtonContainer{
+    width:50%;
+    display: flex;
+    justify-content: center;
+    gap:1rem;
+}
+
+.pageButton{
+    color:white;
+    background-color: rgb(39, 201, 161);
+    border:none;
+    width:8%;
+    height: 2rem;
+    border-radius: 0.2rem;
+}
+
+.colorChange{
+    background-color:rgb(230, 230, 230);
+    color:gray;
+}
+
+footer{
+    background-color:rgb(230, 230, 230);
+    height: 20rem;
+    display: flex;
+   padding:0 15rem;
+}
+
+.linkContainer{
+    display:flex;
+    justify-content: space-between;
+    color:rgb(39, 201, 161);
+    font-size:1.2rem;
+    padding-top:3rem;
+    margin-bottom:2rem;
+}
+
+.socialMediaContainer{
+    display:flex;
+    gap:1rem;
+    padding-right:3rem;
+}
+
+.mediaAccount{
+    width:3rem;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.2rem;
+    height:2rem;
+    color:rgb(155, 154, 154);
+}
+
+.middleContainer{
+    display:flex;
+    justify-content: space-between;
+    gap:6rem;
+    color:rgb(155, 154, 154);
+}
+
+.parContainer{
+    width:35%;
+}
+
+.advertContainer{
+    display: flex;
+    flex-direction: column;
+    margin-right:10rem;
+}
+
+.bigSize{
+    font-size:2rem;
+}
+
+
+.policyContainer{
+    width:10%;
+    line-height: 2rem;
+    margin-right:5rem;
+}
+
+.spans{
+    margin-bottom:0.5rem;
+}
+
+
+.paragraph{
+    line-height: 1.5rem;
+}
+
+.mainContainer{
+    display:inline-block;
+}
+
+.lastContainer{
+    display:flex;
+    justify-content: space-between;
+    color:rgb(155, 154, 154);
+    margin-top:3rem;
+}
+
+.templateSpan{
+    margin-right:2rem;
+
+}
